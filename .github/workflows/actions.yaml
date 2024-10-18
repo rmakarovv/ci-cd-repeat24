@@ -1,0 +1,17 @@
+name: Names
+on:
+    push
+jobs:
+    idle:
+        name: Idle job doing only prints
+        runs-on: ubuntu-latest
+        steps:
+            - 
+                name: checkout
+                uses: action/checkout@v4
+            -
+                name: step One-Two
+                run: |
+                    echo Idle Sleep
+                    sleep 10
+                    echo Waking up
