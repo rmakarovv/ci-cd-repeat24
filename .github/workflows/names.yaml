@@ -1,3 +1,4 @@
+name: Names
 on:
     push
 jobs:
