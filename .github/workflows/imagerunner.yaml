@@ -23,4 +23,3 @@ jobs:
                 name: docker run
                 run: |
                     docker run --rm -t cicd24
-    
